@@ -1,0 +1,184 @@
+.Header{
+    background-color:tomato;
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    float: left;
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3%;
+    color: tomato;
+}
+.log{
+    float: right;
+    margin-right: 2%;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+}
+.create{
+
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius:  5%;
+    float: right;
+    margin-right: 6%;
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+   padding-top: 3px;
+}
+.Filter{
+    width: 24%;
+    margin-left: 10%;
+    border: 0.5px solid black;
+    height: 450px;
+    margin-top: 1%;
+    box-shadow: 0.2px 0.2px 2px blue ;
+}
+.Head{
+    color: darkblue;
+    margin-left: 10%;
+    font-size: xx-large;
+    margin-top: 2%;
+
+}
+
+/*css for loader*/
+.loader{
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.loader1{
+    margin-left: 420px;
+    margin-top: 130px;
+}
+/*css for filter element*/
+
+
+
+
+
+
+/*food items starts here*/
+.fooditems
+{
+    width: 60%;
+    height: 298px;
+    background-color: white;
+    box-shadow: 0px 0.1px 6px;
+    border: 1px soid black;
+    float: right;
+    margin-right: 8%;
+    margin-top: 27px;
+
+}
+.foodbox1{
+    width:100%;
+    height:52%;
+}
+.leftimg
+{
+     margin-top: 0.5%;
+     margin-left: 10px;
+     border-radius: 15%;
+     margin-bottom: 4%;
+     width: 30%;
+     height: 90%;
+     float: left;
+}
+.textbox2{
+    width:60% ;
+    height: 90%;
+    float: left;
+    margin-right: 5px;
+}
+.rightboxhead
+{
+    font-weight: bold;
+    float: right;
+    color: darkblue;
+    font-size: 30px;
+    float: left;
+    margin-top:2%;
+    margin-left: 2%;
+    margin-right: 20%;
+    display: inline;
+}
+@media scren and (max-width:826px) and (min-width:300px){
+    .rightboxhead{
+        margin-right:0px;
+    }
+    .foodbox2{
+        font-size: 10px;
+    }
+}
+
+
+.rightboxsub
+{    
+     font-weight: normal;
+     font-size: 15px;
+     margin: auto;
+     float: left;
+     display: inlne;
+     margin-left: 2%;
+     
+}
+
+.rightboxtext
+{
+    margin-right: 38%;
+    margin-top: 3%;
+    font-family: sans-serif;
+    float: right;
+    color: darkblue;
+    
+}
+.foodbox2{
+    height: 40%;
+    width: 100%;
+    margin-left: 8%;
+    font-size: 25px;
+}
+.fb1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.fb2{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#heading1
+{
+    margin-right: 25%;
+    color: darkblue;
+    font-weight: normal;
+    line-height: 30px;
+    font-family:'Times New Roman', Times, serif
+}
+.line{
+    width: 100%;
+    height: 0px;
+    border: 0.01px orange solid;
+    float: left;
+    margin-bottom: 28px;
+}
+.fooditems:hover
+{
+    transform: scale(1.01,1.01);
+}
+/*food items element ends here*/
+
